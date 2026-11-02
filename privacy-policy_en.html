@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #334155; }
+    h1 { font-size: 1.5rem; margin-bottom: 1rem; }
+    h2 { font-size: 1.25rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    h3 { font-size: 1.05rem; margin-top: 1.2rem; margin-bottom: 0.4rem; }
+    ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+    a { color: #2563eb; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #e2e8f0; padding: 8px 10px; text-align: left; vertical-align: top; }
+    th { background: #f8fafc; }
+  </style>
+</head>
+<body>
+<h1>TEV Pump UPS Privacy Policy</h1>
+<p>Welcome to our products and services. <strong>TEV Pump UPS</strong> (hereinafter referred to as "Products and Services") is developed and operated by <strong>Longhai Telvo Automotive Electronics Research Institute Co., Ltd.</strong> (hereinafter referred to as "we" or "us"). Ensuring the security and privacy of user data is our top priority. This Privacy Policy sets out the data we collect and how we process it when you access and use our Products and Services. The App is provided <strong>free of charge</strong>.</p>
+<p>Before continuing to use our products, please read this Privacy Policy carefully and make sure you fully understand all of its rules and key points. Once you choose to use the App, you are deemed to have agreed to all of the contents of this Privacy Policy. If you do not agree to the Policy or any of its terms, please stop using our Products and Services.</p>
+<p>This Privacy Policy covers the following:</p>
+<ul>
+  <li>How we collect and use your personal information;</li>
+  <li>How we store and protect your personal information;</li>
+  <li>How we share, transfer and publicly disclose your personal information;</li>
+  <li>Your rights and how to contact us.</li>
+</ul>
+
+<h2>1. How We Collect and Use Your Personal Information</h2>
+<p>Personal information refers to various information recorded electronically or by other means that can, alone or in combination with other information, identify a specific natural person or reflect the activities of a specific natural person. In accordance with the Cybersecurity Law of the People's Republic of China, the Personal Information Protection Law of the People's Republic of China, the Information Security Technology - Personal Information Security Specification (GB/T 35273-2020) and other applicable laws and regulations, we collect and use your personal information based on the principles of lawfulness, legitimacy, necessity and good faith while you use our services or products.</p>
+<p><strong>When collection takes place:</strong> The App shows the Privacy Policy and User Agreement prompt when you first launch it. Before you click "Agree", we do not initialize any information-collecting SDK, initiate any network requests, or collect your personal information; clicking "Disagree" will exit the App. On the login page, you are also required to check the box agreeing to the Privacy Policy and User Agreement before you can log in. All information listed below is collected only after that point.</p>
+<table>
+  <tr>
+    <th>Information Type</th>
+    <th>Specific Content</th>
+    <th>How It Is Collected</th>
+    <th>Purpose of Use</th>
+  </tr>
+  <tr>
+    <td>Phone Number</td>
+    <td>Phone number</td>
+    <td>Voluntarily provided by you when logging in / registering (SMS verification code login or password login)</td>
+    <td>Account registration and login; sharing devices by phone number; used as a push alias to receive notifications such as device sharing invitations</td>
+  </tr>
+  <tr>
+    <td>Push Registration ID</td>
+    <td>The registrationId returned by JPush</td>
+    <td>Automatically obtained when the push SDK is initialized after you click "Agree"</td>
+    <td>Receiving push notifications such as device sharing invitations and device status alerts</td>
+  </tr>
+  <tr>
+    <td>Bound Device List and Connection Information</td>
+    <td>Device ID, device name, device chip ID (chipId), BLE Bluetooth MAC address and name, MQTT logical device ID and topic prefix, Wi-Fi hotspot SSID/BSSID/gateway IP/hotspot password</td>
+    <td>Collected and uploaded by the App when you add or connect a device</td>
+    <td>Enabling the same device to reconnect and switch across multiple channels (BLE/MQTT/Wi-Fi); cross-account device sharing</td>
+  </tr>
+  <tr>
+    <td>Real-time Device Operating Data</td>
+    <td>Battery level, input/output voltage, load percentage, running status, grid status, start counts, estimated runtime, etc.</td>
+    <td>Read in real time via BLE/MQTT after connecting the device</td>
+    <td>Displaying your device's operating status in real time within the App; this data is used only for real-time display and is not written to the cloud for long-term storage</td>
+  </tr>
+  <tr>
+    <td>Wi-Fi Network Information (Provisioning Scenarios)</td>
+    <td>The SSID and password of the target Wi-Fi at your location; the SSID of the Wi-Fi you are currently connected to</td>
+    <td>Entered by you only during the device provisioning flow, or obtained from the system interface for the current Wi-Fi name</td>
+    <td>Delivering Wi-Fi credentials to your Pump UPS device so it can go online; this information is transmitted directly to the device being configured (locally / within the LAN) and is not collected or uploaded to our cloud servers</td>
+  </tr>
+</table>
+
+<h3>(1) System Permissions</h3>
+<p>To provide the above functions, the App may request the following permissions when you use the relevant features. You can disable or deny authorization at any time in the system settings; disabling a permission does not affect the use of functions unrelated to that permission:</p>
+<ul>
+  <li><strong>Bluetooth Permission</strong>: used to scan for and connect Pump UPS devices (BLE provisioning and data transmission);</li>
+  <li><strong>Location Permission</strong>: used only to scan for nearby Wi-Fi networks to complete device provisioning (Android requires coarse/fine location permission; iOS requires location permission while in use). We do <strong>not</strong> collect, store or upload your precise geolocation;</li>
+  <li><strong>Wi-Fi Status and Network Permission</strong>: used to read/connect Wi-Fi status, complete device provisioning and network communication;</li>
+  <li><strong>Notification Permission</strong>: used to receive push messages such as device sharing invitations and status alerts.</li>
+</ul>
+
+<h2>2. How We Store and Protect Your Personal Information</h2>
+<p><strong>Retention Period:</strong> We retain your personal information only for as long as necessary to achieve the collection purposes stated in this Policy. Once you request deletion or the legally required retention period expires, we will delete or anonymize the relevant personal information.</p>
+<p><strong>Storage Location:</strong> Your personal information is stored on servers deployed within China by the cloud services we use.</p>
+<p><strong>Security Measures:</strong> We take industry-standard security measures to protect your personal information, including: encrypted transmission over the network (MQTT connections use TLS encryption; cloud APIs use HTTPS); management and control of access permissions; and regular security risk assessment. We would like to be transparent with you: the App caches certain information (such as login state, device list, etc.) in plain text in the private app directory on your device. This cache is stored only on your own device and is used for in-app functions; it is not uploaded or shared with any third party. The Wi-Fi hotspot password required for device provisioning is used only for local functions.</p>
+<p><strong>Account Deletion:</strong> You may self-service delete your account through the "Delete Account" function in the "Settings" page of the App. Before deletion, you will be required to verify by entering your login password. After successful deletion, your account information, bound devices and their data, sharing relationships and related local cache information will be deleted or anonymized and cannot be recovered. Please proceed with caution. After deletion, you will no longer be able to log in with the original phone number or retrieve the related data. You may also sign out of your current account at any time (signing out only clears the login state on this device and does not delete cloud data). If you wish to delete your personal information by other means, you may submit a request to us through the contact information at the end of this Policy; we will verify your identity and process the deletion or anonymization promptly.</p>
+
+<h2>3. How We Share, Transfer and Publicly Disclose Your Personal Information</h2>
+<p>To provide the product functions, we engage the following third-party service providers to process relevant information. We only provide third-party service providers with the minimum information necessary to implement the functions for the purposes stated in this Policy, and require them to process your personal information in accordance with our instructions, this Privacy Policy and other relevant confidentiality and security measures:</p>
+<table>
+  <tr>
+    <th>Third-Party Service Provider</th>
+    <th>Purpose</th>
+    <th>Personal Information Involved</th>
+  </tr>
+  <tr>
+    <td>Bmob Backend Cloud Service (api.codenow.cn)</td>
+    <td>Account system, user data and device data storage</td>
+    <td>Phone number, device list and connection information, login credentials</td>
+  </tr>
+  <tr>
+    <td>JPush Push Notifications (api.jpush.cn)</td>
+    <td>Message push service</td>
+    <td>Phone number (as a push alias), push registration ID (registrationId), and necessary device information processed by the push SDK in accordance with its own policy</td>
+  </tr>
+  <tr>
+    <td>EMQX MQTT Messaging Service (a941c9a9.ala.cn-hangzhou.emqxsl.cn)</td>
+    <td>Real-time transmission of device status messages</td>
+    <td>MQTT client ID, device status data</td>
+  </tr>
+</table>
+<p>Except for the third-party service providers listed above and the statutory circumstances below, we will not share, transfer or publicly disclose your personal information to any third party.</p>
+<p>In the following circumstances, the sharing, transfer or public disclosure of your personal information does not require your prior authorization or consent:</p>
+<ul>
+  <li>Directly related to national security or national defense security;</li>
+  <li>Directly related to criminal investigation, prosecution, trial and execution of judgments;</li>
+  <li>Necessary to protect the major lawful rights and interests of your life, property or others, where it is difficult to obtain your consent;</li>
+  <li>Personal information that you have disclosed to the public yourself;</li>
+  <li>Personal information collected from lawfully publicly disclosed information, such as lawful news reports and government information disclosure channels;</li>
+  <li>Necessary to conclude and perform a contract at the request of the data subject;</li>
+  <li>Necessary to maintain the safe and stable operation of the products or services provided, such as detecting and handling faults in the products or services;</li>
+  <li>Other circumstances provided for by laws and regulations.</li>
+</ul>
+<p>We may share your personal information externally in accordance with laws and regulations or in response to mandatory requirements of government authorities. In compliance with laws and regulations, when we receive such disclosure requests, we will require the corresponding legal documents, such as subpoenas or investigation letters. We firmly believe that requests for information should be handled with as much transparency as possible within the scope permitted by law.</p>
+
+<h2>4. Your Rights</h2>
+<p>Depending on your jurisdiction, you may have the right to:</p>
+<ul>
+  <li><strong>Access</strong> the personal information we hold about you;</li>
+  <li><strong>Correct</strong> inaccurate personal information;</li>
+  <li><strong>Delete</strong> your personal information (you can self-service delete your account in the "Settings" page, or submit a deletion request through the contact information at the end of this Policy);</li>
+  <li><strong>Withdraw Consent</strong>: you can withdraw your consent to the relevant processing by disabling related permissions in the system settings, signing out or uninstalling the App;</li>
+  <li><strong>Delete Account</strong>: you can use the "Delete Account" function in the "Settings" page; after deletion, your account and related personal information will be deleted or anonymized;</li>
+  <li><strong>Object</strong> to certain types of processing.</li>
+</ul>
+
+<h2>5. Protection of Minors</h2>
+<p>Our Products and Services are mainly intended for adults. If you are a minor under the age of 14, please read this Policy under the guidance of your guardian and use our Products and Services only with your guardian's consent. If we become aware that we have collected personal information of a minor without verifiable prior guardian consent, we will take steps to delete the relevant data as soon as possible.</p>
+
+<h2>6. Changes to This Privacy Policy</h2>
+<p>We may update this Privacy Policy from time to time. Therefore, we recommend that you check this page periodically to stay informed of any changes. If there are any changes, we will publish the new Privacy Policy on this page and prompt you to review it in the App.</p>
+<p>This Policy was last updated on November 2, 2026 and takes effect on November 2, 2026.</p>
+
+<h2>7. Contact Us</h2>
+<p>If you have any questions about this Policy while reading it, or wish to exercise your personal information rights, you may contact our customer service at <strong>hr@tevauto.com</strong>. We will do our best to reply and resolve your issues within a reasonable time (generally no more than 15 working days).</p>
+</body>
+</html>
