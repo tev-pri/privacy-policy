@@ -18,7 +18,7 @@
 </head>
 <body>
 <h1>TEV Pump UPS Privacy Policy</h1>
-<p>Welcome to our products and services. <strong>TEV Pump UPS</strong> (hereinafter referred to as "Products and Services") is developed and operated by <strong>Longhai tev Automotive Electronics Research Institute Co., Ltd.</strong> (hereinafter referred to as "we" or "us"). Ensuring the security and privacy of user data is our top priority. This Privacy Policy sets out the data we collect and how we process it when you access and use our Products and Services. The App is provided <strong>free of charge</strong>.</p>
+<p>Welcome to our products and services. <strong>TEV Pump UPS</strong> (hereinafter referred to as "Products and Services") is developed and operated by <strong>Longhai Tev Automotive Electronics Research Institute Co., Ltd.</strong> (hereinafter referred to as "we" or "us"). Ensuring the security and privacy of user data is our top priority. This Privacy Policy sets out the data we collect and how we process it when you access and use our Products and Services. The App is provided <strong>free of charge</strong>.</p>
 <p>Before continuing to use our products, please read this Privacy Policy carefully and make sure you fully understand all of its rules and key points. Once you choose to use the App, you are deemed to have agreed to all of the contents of this Privacy Policy. If you do not agree to the Policy or any of its terms, please stop using our Products and Services.</p>
 <p>This Privacy Policy covers the following:</p>
 <ul>
@@ -49,6 +49,12 @@
     <td>The registrationId returned by JPush</td>
     <td>Automatically obtained when the push SDK is initialized after you click "Agree"</td>
     <td>Receiving push notifications such as device sharing invitations and device status alerts</td>
+  </tr>
+  <tr>
+    <td>Device Unique Identifier</td>
+    <td>Android ID (ANDROID_ID)</td>
+    <td>Automatically obtained when the push SDK (JPush) is initialized after you click "Agree"</td>
+    <td>Used for device identification and message push (device identifier of the push channel) to ensure push notifications are delivered</td>
   </tr>
   <tr>
     <td>Bound Device List and Connection Information</td>
@@ -101,7 +107,7 @@
   <tr>
     <td>JPush Push Notifications</td>
     <td>Message push service</td>
-    <td>Phone number (as a push alias), push registration ID (registrationId), and necessary device information processed by the push SDK in accordance with its own policy</td>
+    <td>Phone number (as a push alias), push registration ID (registrationId), device unique identifier (Android ID), and necessary device information processed by the push SDK in accordance with its own policy</td>
   </tr>
   <tr>
     <td>EMQX MQTT Messaging Service</td>
